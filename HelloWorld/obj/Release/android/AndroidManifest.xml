@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="HelloWorld.HelloWorld" android:versionCode="1" android:versionName="1.0">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="HelloWorld.HelloWorld" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
   <!--suppress UsesMinSdkAttributes-->
   <uses-sdk android:minSdkVersion="16" />
+  <uses-permission android:name="android.permission.INTERNET" />
   <application android:label="HelloWorld" android:name="mono.android.app.Application" android:allowBackup="true" android:icon="@drawable/icon">
     <activity android:icon="@drawable/icon" android:label="HelloWorld" android:name="md5af9cfb01fe55d25ddc872b85e90521dc.MainActivity">
       <intent-filter>

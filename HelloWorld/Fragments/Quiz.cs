@@ -26,6 +26,9 @@ namespace HelloWorld.Fragments
 
             // Create your fragment here
 
+            //var button = Activity.FindViewById<Button>(Resource.Id.MyButton);
+
+
 
             //ÉäÉXÉgê›íË
             //var view_list = Activity.FindViewById<ListView>(Resource.Id.mylistview);
@@ -38,7 +41,6 @@ namespace HelloWorld.Fragments
 
             //view_list.Adapter = adapter;
             var transactoin = ChildFragmentManager.BeginTransaction();
-
             transactoin.Commit();
 
             

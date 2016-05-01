@@ -7,6 +7,10 @@ using Android.Widget;
 using Android.OS;
 using System.Collections.Generic;
 using HelloWorld.Fragments;
+using HelloWorld.Functions;
+
+using System.IO;
+
 
 namespace HelloWorld
 {
@@ -14,6 +18,9 @@ namespace HelloWorld
     public class MainActivity : Activity
     {
         int count = 1;
+
+
+        Android.Media.SoundPool soundpool;
 
         
 
@@ -27,12 +34,41 @@ namespace HelloWorld
             // Get our button from the layout resource,
             // and attach an event to it
             Button button = FindViewById<Button>(Resource.Id.MyButton);
-            var superText = FindViewById<TextView>(Resource.Id.MySuperTextView);
+            var soundtext = FindViewById<TextView>(Resource.Id.MySuperTextView);
 
-            button.Click += delegate
+            var IsDownloading = false;
+
+            button.Click += async delegate
             {
-                superText.Text = string.Format("Last Text from button was: {0}", button.Text);
-                button.Text = string.Format("{0} clicks!", count++);
+                if (IsDownloading) return;
+                IsDownloading = true;
+
+                var audio_url = "";
+                var mean_text = "";
+
+                var doc = new Scraping.en_hatsuon_info();
+                await doc.DownloadhtmlAsync("photon");
+
+                soundtext.Text = doc.GetSoundSourceURL();
+                mean_text = doc.GetMeaning();
+
+                var data = await API.DownloadFileAsync(soundtext.Text);
+
+                var path = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal) + "/photon.mp3";
+
+                await API.SaveByteFile(path, data);
+                
+
+
+                new AlertDialog.Builder(this)
+                .SetTitle(audio_url)
+                .SetMessage(data.IsFixedSize.ToString())
+                .SetPositiveButton("OK", delegate { })
+                .Show();
+
+
+                IsDownloading = false;
+
             };
 
             var transcation = FragmentManager.BeginTransaction();
@@ -42,7 +78,11 @@ namespace HelloWorld
             
 
         }
-
+        protected override void OnResume()
+        {
+            base.OnResume();
+            //soundpool = new Android.Media.SoundPool(1,Android.Media.AudioManager.sta)
+        }
     }
 }
 

@@ -1,3 +1,7 @@
-/HelloWorld/bin/
-/HelloWorld/obj/
+/HelloWorld/bin/*
+/HelloWorld/obj/*
+/Test/bin/
+/Test/obj/
+/TestResults/
+
 

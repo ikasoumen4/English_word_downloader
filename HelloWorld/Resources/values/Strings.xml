@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="ApplicationName">HelloWorld</string>
-  <string name="Hello">Hello World, Click Me!</string>
-  <string name="SuperText">My super text in textview</string>
+  <string name="Hello">ファイルダウンロード</string>
+  <string name="SuperText">my super text</string>
   
 </resources>

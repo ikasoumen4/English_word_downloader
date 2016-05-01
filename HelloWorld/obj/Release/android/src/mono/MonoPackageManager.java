@@ -80,6 +80,13 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"HelloWorld.dll",
+		"HtmlAgilityPack.dll",
+		"System.Diagnostics.Tracing.dll",
+		"System.Reflection.Emit.dll",
+		"System.Reflection.Emit.ILGeneration.dll",
+		"System.Reflection.Emit.Lightweight.dll",
+		"System.ServiceModel.Security.dll",
+		"System.Threading.Timer.dll",
 		"System.ServiceModel.Internals.dll",
 	};
 	public static final String[] Dependencies = new String[]{

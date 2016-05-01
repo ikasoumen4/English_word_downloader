@@ -2,7 +2,6 @@ C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\bin\Rel
 C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\bin\Release\HelloWorld.pdb
 C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\bin\Release\HelloWorld.HelloWorld.apk
 C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\bin\Release\HelloWorld.HelloWorld-Signed.apk
-C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Release\HelloWorld.csprojResolveAssemblyReference.cache
 C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Release\HelloWorld.dll
 C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Release\HelloWorld.pdb
 C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Release\android\bin\HelloWorld.HelloWorld.apk
@@ -12,5 +11,10 @@ C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Rel
 C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Release\R.cs.flag
 C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Release\uploadflags.txt
 C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Release\res\layout\quiz.xml
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Release\res\layout\dictionary.xml
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Release\res\layout\top.xml
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\bin\Release\HtmlAgilityPack.dll
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\bin\Release\HtmlAgilityPack.pdb
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\bin\Release\HtmlAgilityPack.dll.mdb
 C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Release\HelloWorld.dll.mdb
 C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\bin\Release\HelloWorld.dll.mdb
