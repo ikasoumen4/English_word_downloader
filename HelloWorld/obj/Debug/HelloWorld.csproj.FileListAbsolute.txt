@@ -1,0 +1,15 @@
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\bin\Debug\HelloWorld.dll
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\bin\Debug\HelloWorld.HelloWorld.apk
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\bin\Debug\HelloWorld.HelloWorld-Signed.apk
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.dll
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\android\bin\HelloWorld.HelloWorld.apk
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\res\layout\main.xml
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\res\values\strings.xml
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\res\drawable\icon.png
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\R.cs.flag
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\uploadflags.txt
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.dll.mdb
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\bin\Debug\HelloWorld.dll.mdb

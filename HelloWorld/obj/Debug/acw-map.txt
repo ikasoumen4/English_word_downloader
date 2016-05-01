@@ -1,0 +1,4 @@
+HelloWorld.MainActivity, HelloWorld;md5af9cfb01fe55d25ddc872b85e90521dc.MainActivity
+HelloWorld.MainActivity, HelloWorld, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5af9cfb01fe55d25ddc872b85e90521dc.MainActivity
+HelloWorld.MainActivity;md5af9cfb01fe55d25ddc872b85e90521dc.MainActivity
+helloworld.MainActivity;md5af9cfb01fe55d25ddc872b85e90521dc.MainActivity

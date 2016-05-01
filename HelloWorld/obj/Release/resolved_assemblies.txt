@@ -1,0 +1,8 @@
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Release\android\assets\HelloWorld.dll
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Release\android\assets\Mono.Android.dll
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Release\android\assets\mscorlib.dll
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Release\android\assets\System.Core.dll
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Release\android\assets\System.dll
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Release\android\assets\System.Xml.dll
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Release\android\assets\System.Runtime.Serialization.dll
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Release\android\assets\System.ServiceModel.Internals.dll
