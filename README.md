@@ -36,3 +36,7 @@ to do Necessary thing for me and it Acting on others
 
 清原という男に野球は必要でなかったということに尽きる。
 
+#著作権問題
+どうやってクリアするか？
+ユーザーが独自にダウンロードスクリプトを組む形式にする？
+
