@@ -17,13 +17,15 @@ namespace HelloWorld
     [Activity(Label = "HelloWorld", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
-        int count = 1;
 
 
-        Android.Media.SoundPool soundpool;
+        //int count = 1;
+
+
+        //Android.Media.SoundPool soundpool;
 
         
-
+        //Bundleは通常nullだが、savedinstanceでbundleに値を設定した場合はインスタンスが存在する
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -31,48 +33,20 @@ namespace HelloWorld
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            // Get our button from the layout resource,
-            // and attach an event to it
-            Button button = FindViewById<Button>(Resource.Id.MyButton);
-            var soundtext = FindViewById<TextView>(Resource.Id.MySuperTextView);
 
-            var IsDownloading = false;
+            var root = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+            var words_path = root + "/words/";
+            var sounds_path = root + "/sounds/";
 
-            button.Click += async delegate
-            {
-                if (IsDownloading) return;
-                IsDownloading = true;
-
-                var audio_url = "";
-                var mean_text = "";
-
-                var doc = new Scraping.en_hatsuon_info();
-                await doc.DownloadhtmlAsync("photon");
-
-                soundtext.Text = doc.GetSoundSourceURL();
-                mean_text = doc.GetMeaning();
-
-                var data = await API.DownloadFileAsync(soundtext.Text);
-
-                var path = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal) + "/photon.mp3";
-
-                await API.SaveByteFile(path, data);
-                
+            if (System.IO.File.Exists(words_path) == false) System.IO.Directory.CreateDirectory(words_path);
+            if (System.IO.File.Exists(sounds_path) == false) System.IO.Directory.CreateDirectory(sounds_path);
 
 
-                new AlertDialog.Builder(this)
-                .SetTitle(audio_url)
-                .SetMessage(data.IsFixedSize.ToString())
-                .SetPositiveButton("OK", delegate { })
-                .Show();
-
-
-                IsDownloading = false;
-
-            };
 
             var transcation = FragmentManager.BeginTransaction();
-            transcation.Add(Resource.Id.MainFragment, new Quiz(), "Quiz");
+            //transcation.Add(Resource.Id.MainFragment, new Quiz(), "Quiz");
+            transcation.Add(Resource.Id.MainFragment, new MainMenu(), nameof(MainMenu));
+
             transcation.Commit();
 
             
@@ -83,6 +57,24 @@ namespace HelloWorld
             base.OnResume();
             //soundpool = new Android.Media.SoundPool(1,Android.Media.AudioManager.sta)
         }
+
+        protected override void OnDestroy()
+        {
+            base.OnDestroy();
+            //if (soundpool != null) soundpool.Release();
+        }
+
+
+        ////状態保存
+        //protected override void OnSaveInstanceState(Bundle outState)
+        //{
+            
+        //}
+
+        ////状態復元
+        //protected override void OnRestoreInstanceState(Bundle savedInstanceState)
+        //{
+        //}
     }
 }
 

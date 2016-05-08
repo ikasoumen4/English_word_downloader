@@ -16,5 +16,8 @@ C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Rel
 C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\bin\Release\HtmlAgilityPack.dll
 C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\bin\Release\HtmlAgilityPack.pdb
 C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\bin\Release\HtmlAgilityPack.dll.mdb
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Release\HelloWorld.csprojResolveAssemblyReference.cache
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Release\res\layout\mainmenu.xml
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Release\res\layout\editdrill.xml
 C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Release\HelloWorld.dll.mdb
 C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\bin\Release\HelloWorld.dll.mdb

@@ -49,7 +49,6 @@ namespace HelloWorld.Functions
         {
             if (path == null || data == null) throw new NullReferenceException();
 
-
             await Task.Run(() =>
             {
                 var fs = new FileStream(path, mode);
@@ -58,6 +57,37 @@ namespace HelloWorld.Functions
                 bw.Close();
                 fs.Close();
             });
+        }
+
+        public static async Task SaveTextFile(string path, string data, FileMode mode = FileMode.Create)
+        {
+            if (path == null || data == null) throw new NullReferenceException();
+
+            await Task.Run(() => {
+
+                var fs = new FileStream(path, mode);
+                var sw = new StreamWriter(fs);
+                sw.Write(data);
+                sw.Close();
+                fs.Close();
+            });
+        }
+
+
+        public static void InitQuizData(this Fragments.IQuiz quiz)
+        {
+            quiz.word = null;
+            quiz.mean = null;
+            quiz.sound_path = null;
+            quiz.IsDownloaded = false;
+        }
+
+        public static void CopyQuizData(this Fragments.IQuiz dest, Fragments.IQuiz copy_data)
+        {
+            dest.word = copy_data.word;
+            dest.mean = copy_data.mean;
+            dest.sound_path = copy_data.sound_path;
+            dest.IsDownloaded = copy_data.IsDownloaded;
         }
 
 

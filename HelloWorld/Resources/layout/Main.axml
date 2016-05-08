@@ -3,16 +3,6 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-    <Button
-        android:id="@+id/MyButton"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Hello" />
-    <TextView
-        android:id="@+id/MySuperTextView"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/SuperText" />
     <FrameLayout
         android:id="@+id/MainFragment"
         android:minWidth="25px"

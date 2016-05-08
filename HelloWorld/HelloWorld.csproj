@@ -53,6 +53,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fragments\EditDrill.cs" />
+    <Compile Include="Fragments\MainMenu.cs" />
     <Compile Include="Fragments\Quiz.cs" />
     <Compile Include="Functions\API.cs" />
     <Compile Include="MainActivity.cs" />
@@ -75,6 +77,13 @@
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\Top.axml" />
+    <AndroidResource Include="Resources\layout\MainMenu.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\EditDrill.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <None Include="ScreenTransition.md" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />

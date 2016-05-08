@@ -15,15 +15,28 @@ public final class R {
     }
     public static final class id {
         public static final int MainFragment=0x7f050002;
-        public static final int MyButton=0x7f050000;
-        public static final int MySuperTextView=0x7f050001;
-        public static final int mylistview=0x7f050003;
+        public static final int MySuperTextView=0x7f050008;
+        public static final int btn_add_list=0x7f050000;
+        public static final int btn_edit_drill=0x7f050005;
+        public static final int btn_playsound=0x7f05000a;
+        public static final int btn_quiz_next=0x7f05000e;
+        public static final int btn_quiz_previous=0x7f05000d;
+        public static final int btn_show_answer=0x7f05000b;
+        public static final int btn_start_quiz=0x7f050003;
+        public static final int button2=0x7f050004;
+        public static final int button4=0x7f050006;
+        public static final int button5=0x7f050007;
+        public static final int linearLayout2=0x7f05000c;
+        public static final int mylistview=0x7f050001;
+        public static final int text_mean=0x7f050009;
     }
     public static final class layout {
         public static final int dictionary=0x7f030000;
-        public static final int main=0x7f030001;
-        public static final int quiz=0x7f030002;
-        public static final int top=0x7f030003;
+        public static final int editdrill=0x7f030001;
+        public static final int main=0x7f030002;
+        public static final int mainmenu=0x7f030003;
+        public static final int quiz=0x7f030004;
+        public static final int top=0x7f030005;
     }
     public static final class string {
         public static final int ApplicationName=0x7f040000;

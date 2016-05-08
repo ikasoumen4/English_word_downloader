@@ -11,5 +11,11 @@ C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Deb
 C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\res\drawable\icon.png
 C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\R.cs.flag
 C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\uploadflags.txt
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\bin\Debug\HtmlAgilityPack.dll
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\bin\Debug\HtmlAgilityPack.dll.mdb
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\res\layout\quiz.xml
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\res\layout\dictionary.xml
+C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\res\layout\top.xml
 C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.dll.mdb
 C:\Users\yas\Documents\Visual Studio 2015\Projects\HelloWorld\HelloWorld\bin\Debug\HelloWorld.dll.mdb

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:text="クイズモード"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_start_quiz" />
+    <Button
+        android:text="閲覧モード"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2" />
+    <Button
+        android:text="マイドリルを編集する"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_edit_drill" />
+    <Button
+        android:text="公開ドリルを読み込む"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4" />
+    <Button
+        android:text="設定"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5" />
+</LinearLayout>
