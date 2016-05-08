@@ -128,7 +128,7 @@ namespace HelloWorld.Fragments
 
             btn_previous.Click += async delegate { await Previous(); };
             btn_next.Click += async delegate { await Next(); };
-            btn_show_answer.Click += delegate { _word.Visibility = ViewStates.Visible; };
+            btn_show_answer.Click += delegate { _mean.Visibility = ViewStates.Visible; };
 
 
             soundpool.LoadComplete += (obj, arg) =>
@@ -369,7 +369,7 @@ namespace HelloWorld.Fragments
 
             try
             {
-                _word.Visibility = ViewStates.Invisible;
+                _mean.Visibility = ViewStates.Invisible;
                 current_quiz_index += 1;
                 var data = items[current_quiz_index];
 
@@ -406,7 +406,7 @@ namespace HelloWorld.Fragments
 
             try
             {
-                _word.Visibility = ViewStates.Invisible;
+                _mean.Visibility = ViewStates.Invisible;
                 current_quiz_index -= 1;
                 var data = items[current_quiz_index];
 
